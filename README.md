@@ -98,5 +98,3 @@ The model is evaluated on the validation set using standard classification metri
 - Experiment with different architectures like ResNet or Vision Transformers.
 - Deploy the model in a real-world application (e.g., content filtering, moderation tools).
 
-## License
-This project is licensed under the MIT License.
