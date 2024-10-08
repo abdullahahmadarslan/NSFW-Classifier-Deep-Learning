@@ -4,7 +4,9 @@
 This project aims to classify images as NSFW (Not Safe For Work) using a deep learning model based on the **EfficientNet** architecture. The project leverages the `datasets` library to load a dataset, applies data augmentation techniques, and trains a classifier for NSFW content detection.
 
 ## Project Overview
-The project uses the **EfficientNet** model, which is known for its balance of accuracy and efficiency, as the core architecture for image classification. The training process includes preprocessing, data augmentation, and fine-tuning of a pre-trained model on a dataset specifically labeled for NSFW detection.
+The project uses the **EfficientNet B0** model, which is known for its balance of accuracy and efficiency, as the core architecture for image classification. The training process includes preprocessing, data augmentation, and fine-tuning of a pre-trained model on a dataset specifically labeled for NSFW detection. Softmax regression was used with the Adam optimizer, and the deep learning model was trained on a dataset of around **10,000 images**, attaining an accuracy of almost **90%**.
+
+
 
 ## Features
 - Image preprocessing and augmentation (resizing, random flipping, color jitter, etc.).
